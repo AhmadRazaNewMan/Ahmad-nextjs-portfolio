@@ -10,7 +10,7 @@ const items = [
     color: "from-red-300 to-blue-300",
     title: "oneclickmhstore",
     desc: "A fully functional ecommerce Website designed in figma and developed with Wordpress and Woocomerce plugin.The Power is enhaced by elementor plugin,Wp forms and many more ",
-    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    img: "/ecommerce-project.png",
     link: "https://www.oneclickmhstore.com/",
   },
   {
@@ -18,7 +18,7 @@ const items = [
     color: "from-blue-300 to-violet-300",
     title: "Watch-tower-Ai",
     desc: "Watch tower a web project is an integration of Machine learning tensor flow library which uses COCO SSD model for object detection and labeling developed in full stack web Framework Next.js and TypeScript for designing it uses Tailwind and shadcn UI.",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    img: "/whatch-tower-ai.png",
     link: "https://watch-tower-ai.vercel.app/",
   },
   {
@@ -26,15 +26,15 @@ const items = [
     color: "from-violet-300 to-purple-300",
     title: "Fam-chat",
     desc: "Is a real-time chat application. Utilizing React, Tailwind, and Daisy UI for frontend, with Context API for state management and Zustand for message state. On the backend, Node.js, Express.js, and MongoDB (cloud) were used, following MVC architecture. Real-time communication via socket.io",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    img: "/fam-chat-project.png",
     link: "https://lama.dev",
   },
   {
     id: 4,
     color: "from-purple-300 to-red-300",
     title: "Git-basic-clone",
-    desc: "Git-Basic, a project crafted with Chakra UI and Next.js, resembles a simplified GitHub clone. It fetches user data, repositories, followers, and watchers, offering insights into frontend API utilization. Users receive toast notifications for updates, while concepts like hooks, useState, useEffect, fetch functions, and props are explored for a comprehensive understanding of modern web development.",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    desc: "Git-Basic-clone, build in Chakra UI and Next.js. It fetches user data, repositories, followers, and watchers, offering insights into frontend API utilization. Users receive toast notifications for updates, while concepts like hooks, useState, useEffect, fetch functions, and props are explored for a comprehensive understanding of modern web development.",
+    img: "/gitproject.png",
     link: "https://git-basic-clone-next-js.vercel.app/",
   },
 ];
@@ -64,7 +64,7 @@ const PortfolioPage = () => {
                 className={`h-screen w-screen flex   items-center justify-center bg-gradient-to-r ${item.color}`}
                 key={item.id}
               >
-                <div className="flex bg-slate-400  flex-col gap-1 text-white">
+                <div className="flex  flex-col gap-1 text-white">
                   <h1 className="text-xl  bg-pink-400 font-bold md:text-4xl lg:text-6xl xl:text-8xl">
                     {item.title}
                   </h1>
